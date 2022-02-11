@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* FONTS VARIABLE */
+header {
+  background-image: url(../img/slide1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header nav .navbar-collapse .navbar-nav .nav-item {
+  font-family: "poppins", sans-serif;
+  padding: 0 0.5em;
+  margin: auto;
+}
+
+header nav .navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: #f7f7f7;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+header nav .navbar-collapse .navbar-nav .tele .nav-link {
+  font-size: small;
+  margin: 0;
+  padding: 3px;
+}
+
+header .message1 {
+  color: white;
+  margin-top: 3Em;
+}
+
+header .message1 .row h1 {
+  padding: 0;
+  font-size: 2em;
+  font-weight: bolder;
+  padding-bottom: 0.5em;
+}
+
+header .message1 .row p {
+  padding: 0;
+  font-size: 2em;
+}
+
+header .message1 .row .row span {
+  background-color: rgba(0, 0, 0, 0.541);
+  max-width: 15.5em;
+  border-radius: 4px;
+  padding: 6px 0;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+header .message1 button {
+  padding: 1em;
+  border: 1px white solid;
+  border-radius: 4px;
+  background-color: rgba(190, 190, 190, 0.753);
+  color: white;
+  margin-bottom: 5em;
+  margin-right: 20px;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  -webkit-transform: translateX(-10px);
+          transform: translateX(-10px);
+}
+
+header .message1 button:hover {
+  color: #1093df;
+  border: none;
+  background-color: white;
+}
+
+header .message1 button i {
+  margin-right: 4px;
+  font-size: 1.5em;
+}
+
+header .message1 .DEC {
+  background-color: #1093df;
+  border: none;
+}
+
+header .message1 .DEC:hover {
+  color: white;
+  border: none;
+  background-color: #1d73a5;
+}
+
+.bx-menu {
+  color: white;
+  font-size: 1em;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.studiplus h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-family: "poppins", sans-serif;
+  font-size: 2em;
+  margin: 2em;
+  margin-bottom: 1em;
+}
+
+.studiplus p {
+  text-align: center;
+  font-weight: 400;
+  font-family: "poppins", sans-serif;
+  font-size: 1em;
+  margin: 2em;
+  margin-bottom: 1em;
+}
+
+.studiplus .container .row .col-md-4 {
+  margin: 0;
+  padding: 0em;
+}
+
+.studiplus .container .row .col-md-4 .bgU {
+  background-color: #dddcdb;
+}
+
+.studiplus .container .row .col-md-4 .bgU h1 {
+  padding-top: 1em;
+  font-family: "poppins", sans-serif;
+  font-size: 2em;
+  color: #06162f;
+  margin: 1em;
+  margin-top: 25px;
+}
+
+.studiplus .container .row .col-md-4 .bgU h3 {
+  text-align: center;
+  font-size: 1.3em;
+  color: #06162f;
+  font-family: "poppins", sans-serif;
+  margin: 1em;
+}
+
+.studiplus .container .row .col-md-4 .bgU p {
+  font-family: "poppins", sans-serif;
+}
+
+.studiplus .container .row .col-md-4 .bgU .d-grid .decv {
+  border: none;
+  background-color: #cdb281;
+  border-radius: 4px;
+  color: white;
+  padding: 0.8em;
+  margin: 20px;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.studiplus .container .row .col-md-4 .bgU .d-grid .decv:hover {
+  background-color: #948261;
+}
+
+.studiplus .container .row .col-md-4 .studip {
+  background-color: #06162f;
+  background-image: url(../img/bg-plus-lite.svg);
+  background-repeat: no-repeat;
+  padding-bottom: 2em;
+  -webkit-box-shadow: #06162f8f 0px 8px 24px;
+          box-shadow: #06162f8f 0px 8px 24px;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.studiplus .container .row .col-md-4 .studip .imgSTu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.studiplus .container .row .col-md-4 .studip .imgSTu img {
+  width: 50%;
+  margin-top: 25px;
+}
+
+.studiplus .container .row .col-md-4 .studip h3 {
+  color: white;
+}
+
+.studiplus .container .row .col-md-4 .studip p {
+  color: white;
+}
+
+.studiplus .container .row .col-md-4 .studip .d-grid .decvB {
+  background-color: #36a0e7;
+}
+
+.studiplus .container .row .col-md-4 .studip .d-grid .decvB:hover {
+  background-color: #1a6394;
+}
+
+.studiplus .container .row .col-md-4 .studip .owl-carousel {
+  background-color: #06162f;
+}
+
+.studiplus .container .row .col-md-4 .studip .owl-carousel .item img {
+  width: 10em;
+  margin: 0;
+}
+
+.gge {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 4em;
+  background-image: url(../img/carousel/bg-raisons.jpg);
+  padding: 2.5em;
+  color: white;
+}
+
+.gge svg {
+  width: 40%;
+  fill: white;
+}
+
+.gge p {
+  font-family: "poppins", sans-serif;
+  font-size: 1Em;
+  text-align: center;
+  margin: 25px;
+}
+
+.gge div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.gge div a {
+  color: #176396;
+}
+
+.gge div i {
+  padding: 0;
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */
