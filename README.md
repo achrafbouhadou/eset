@@ -1,2 +1,2 @@
 # ESET E-learning
-create an online platform for eset marrakech
+create an online platform for ESET Marrakech
